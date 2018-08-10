@@ -1,0 +1,20 @@
+通行证mima：
+112233qqq__
+
+取MySQL中的数据。如一共n条(n>5)取第四条和第五条
+select * from database order by table desc limit 3,2;
+意思是从第三条开始取两条
+
+MySQL的自动递增创建方法：放值进去就行
+会自动递增
+
+查找MySQL中有多少个数据库
+show database；
+
+MySQL中的日期处理
+显示当前时间：select now（）；
+以特定格式显示当前时间：
+select date_format(now(),'%Y--%M--%d %H:%i:%s');
+
+docker虚拟化比VM火
+
